@@ -26,26 +26,7 @@ Y=0
 y=0
 yy=0
 b = 0
-id2  = ('zaidk')
-urlp = requests.get('https://pastebin.com/Lb2PH728').text
-if id2 in urlp:
-    os.system('cls'if os.name=='nt'else'clear')
-else:
-    def loginid():
-        os.system('cls'if os.name=='nt'else'clear')
-        urlpp = requests.get('https://pastebin.com/Lb2PH728').text
-        ina = input('Cod Githup or MMVMVP : ')
-        
-        if ina in urlpp :
-            print('DOne code ')
-            os.system('cls'if os.name=='nt'else'clear')
-            
-        else:
-            print('No Login....')
-            os.system('cls'if os.name=='nt'else'clear')
-            while True:
-                loginid()
-    loginid()
+
 
 
 
