@@ -77,7 +77,7 @@ def zaidk():
     
     global a,m,n,a,p,aaa,aaaa,aa,rr,rrr,r,j,Y,yy,y,idddd,took
     while True:
-        user='qwertyuiopas.dfghjklzxcvbnm'
+        user='qwervbnm'
         num='456789'
         rng=int("".join(random.choice(num)for i in range(1)))
         usery=str("".join(random.choice(user)for i in range(rng)))
