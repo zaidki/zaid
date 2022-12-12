@@ -265,15 +265,15 @@ def zaidk():
                             continue
                         if ('"IDENTIFIER_NOT_AVAILABLE"') in res:
                             Y+=1
-                            os.system('cls'if os.name=='nt'else'claer')
+                            os.system('cls'if os.name=='nt'else'clear')
                             print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                         if ('"IDENTIFIER_EXISTS"') in res:
                             Y+=1
-                            os.system('cls'if os.name=='nt'else'claer')
+                            os.system('cls'if os.name=='nt'else'clear')
                             print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                         if ('"LENGTH_TOO_SHORT"') in res:
                             Y+=1
-                            os.system('cls'if os.name=='nt'else'claer')
+                            os.system('cls'if os.name=='nt'else'clear')
                             print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                         if ('{"errors":[]}') in res:
                             us11 = (user1)
@@ -306,11 +306,11 @@ def zaidk():
                                 ru= requests.post(tlg)
                                
                                 a+=1
-                                os.system('cls'if os.name=='nt'else'claer')
+                                os.system('cls'if os.name=='nt'else'clear')
                                 print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                     elif ('"Bind device by email failed"') in ree:
                         yy+=1
-                        os.system('cls'if os.name=='nt'else'claer')
+                        os.system('cls'if os.name=='nt'else'clear')
                         print(f'\033[1;33m= \033[1;32mGmail \033[1;33m: \033[1;32m<{a}> \033[1;31m<{p}> \033[1;34m<{m}>\n\033[1;33m= \033[1;32mYahoo \033[1;33m: \033[1;32m<{y}> \033[1;31m<{Y}> \033[1;34m<{yy}>\n\033[1;32m= \033[1;33mTelegram  \033[1;32m@\033[1;323mBBPZZ')
                         
                     
