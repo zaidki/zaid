@@ -43,8 +43,9 @@ pr = co1.cookies.get_dict()
 msToken = pr['msToken']
 
         
-took ='5591934454:AAErHu0A9XfCOlThw8Yn5EcjTy-HF8gsqn8'
-idddd ='1548932732'
+took =input('<> Enter Your Token Bot : ')
+
+idddd =input('<> Enter Your ID Accouint : ')
 
 #################
 
